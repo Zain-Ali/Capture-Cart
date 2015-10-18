@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>		
+<!-- 
+* Author: UP687776 
+* Web Script Programming
+* Rich Boakes && Kit Lester
+* 2014 && 2015 
+-->	
+	<head>
+		<meta charset="utf-8">		
+		<title>Products</title>
+		<link rel="stylesheet" type="text/css" href="../../css/css1.css">
+		<link rel="stylesheet" type="text/css" href="../../css/adminPage.css">		
+		<script type='text/javascript' src='../../js/products/adminProducts.js'></script>
+		<script type='text/javascript' src='../../js/otherJS/searchBar.js'></script>
+
+	</head>
+
+	<body>
+		<header>
+			<h1>Admin Add Products</h1>
+			<h2> Products </h2>
+   		   		<a href="../../../index.html">
+					<img class="images" src="../../images/webImages/captureCart.png" height="100" width="150" >
+				</a>			
+   		   		<ul class="nav">
+	        		<li>
+	        			<a href="addProducts" title="Products">Add Products</a>
+			        </li>
+			        <li>
+			        	<a href="adminProducts" title="Products">Products</a>
+			        </li>
+			        <li>
+			        	<a href="#" title="Report">Report</a>
+			        </li>
+			        <li>
+						<a href="../../../index.html" title="Home">Public</a>
+					</li>
+				</ul>
+			<form action="javascript:void(0);">
+				<input name="search_text" id="search_text" placeholder="Search" onkeydown="search()">
+			</form>	
+		</header>
+
+
+		<article id="article" class="marginTop">
+			<h2>Products Page</h2>
+
+			<p><div class="catDesign" id="cats"><h3>Select Category</h3></div></p>
+			<div id ="viewproductByCategory"> </div>
+			<h4>Refresh Page everytime you delete product</h4>
+		</article>
+				
+		<footer>
+			<p>UP687776, University of Portsmouth, 2014 / 2015 All Right Reserved</p>
+			<p>Contact Us: 0123456789</p>
+			<p>Email Address: example@supoort.com</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>		
+<!-- 
+* Author: UP687776 
+* Web Script Programming
+* Rich Boakes && Kit Lester
+* 2014 && 2015 
+-->	
+	<head>
+		<meta charset="utf-8">		
+		<title>Capture Cart Form Admin</title>
+		<link rel="stylesheet" type="text/css" href="../../css/css1.css">
+		<link rel="stylesheet" type="text/css" href="../../css/adminPage.css">
+		<script type='text/javascript' src='../../js/products/postCat.js'></script>
+		<script type='text/javascript' src='../../js/products/postProducts.js'></script>	
+		<script type='text/javascript' src='../../js/products/viewCategory.js'></script>	
+
+
+	</head>		
+	</head>
+
+	<body>
+		<header>
+			<h1>Admin Add Products</h1>
+			<h2>Add Products </h2>
+   		   		<a href="../../../index.html">
+					<img class="images" src="../../images/webImages/captureCart.png" height="100" width="150" >
+				</a>			
+   		   		<ul class="nav">
+	        		<li>
+	        			<a href="addProducts" title="Products">Add Products</a>
+			        </li>
+			        <li>
+			        	<a href="adminProducts" title="Products">Products</a>
+			        </li>
+			        <li>
+			        	<a href="#" title="Report">Report</a>
+			        </li>
+			        <li>
+						<a href="../../../index.html" title="Home">Public</a>
+					</li>
+				</ul>
+			<form>
+				<input name="search_text" id="search_text" placeholder="Coming Soon"/>
+			</form>
+		</header>
+
+
+		<article>
+			<h2> Category</h2>
+
+			<form id='f1'>
+				<ul class='form'>
+					<li>Category Name:<span class="required"></span><input type="text" id="categoryName" value=""/> </li>
+					<li><span class="required"></span><input id="submitCat" type= "button" value="submit"></li>
+				</ul>
+			</form>
+
+			 	<p id="adminCategory"> </p>
+		
+		</article>
+
+
+		<article>
+			<h2> Products</h2>
+
+			<form id='f1' enctype="multipart/form-data">
+				<ul class='form'>
+					<li>Product Name:<span class="required"></span><input type="text" id="productName" value=""/> </li>
+					<li>Category ID:<span class="required"></span><input type="text" id="categoryID" value=""/>                           
+					Please Select Category ID from top of the page</li>
+
+					<li>Product Description:<textarea type="text" id="productDescripton" value="" class="field-ling"/></textarea></li>
+					<li>Product Price:<span class="required"></span> <input type="text" id="productPrice" value=""/></li>
+					<li>Product Stock:<span class="required"></span> <input type="text" id="productStock" value=""/></li>
+					<li>Product Image:<span class="required"></span><input type="file" id="productImage" value="" name="images" required/>
+					</li>
+					<li><span class="required"></span><input id="submit" type= "button" value="submit"></li>
+				</ul>
+			</form>
+
+		</article>
+	   	 	
+		<footer>
+			<p>UP687776, University of Portsmouth, 2014 / 2015 All Right Reserved</p>
+			<p>Contact Us: 0123456789</p>
+			<p>Email Address: example@supoort.com</p>
+		</footer>
+		
+	</body>
+</html>
+

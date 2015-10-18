@@ -1,0 +1,101 @@
+/**
+* Author: UP687776 
+* Web Script Programming
+* Rich Boakes && Kit Lester
+* 2014 && 2015 
+*/
+
+.form {
+	margin: 10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	border: 1px solid black;
+
+}
+
+.form li {
+	padding: 0px;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+
+select {
+	padding: 7px;
+	margin: 0px;
+	border: 1px solid;
+
+}
+
+.productImage {
+    width: 150px;
+    height: 150px
+}
+
+#products { 
+    background: white; 
+    margin: 0; 
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box;
+    border: 1px solid black; 
+    padding: 1em; 
+    position: relative; 
+    border-radius: 0 .5em .5em .5em;
+}
+
+.cart {
+  margin: 50px auto;
+  width: 300px;
+  overflow: hidden;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.6);
+  background: #525252;
+  border: 1px solid #202020;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.catDesign {
+    text-align: center;
+    position: absolute;
+    left:750px;
+    top: 57px;
+    margin-left: -357px;
+    width: 250px;
+    margin: 200px;
+    border-style: solid;
+}
+
+.catDesign:hover {
+    background-color: silver;
+}
+
+.catDesignForAdmin {
+    text-align: center;
+    position: absolute;
+    left:1000px;
+    top: 157px;
+    margin: auto;
+    padding: 2em;
+    width: 10%;
+
+
+}
+
+.writeUp {
+    padding: 10px;
+}
+
+.layout {
+    background-color: white;
+
+}
+
+.adminCategory1	 {
+	border-color: black;
+	width: 60px;
+	right: 1000px;
+	bottom: 100em;
+}
